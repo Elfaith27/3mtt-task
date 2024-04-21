@@ -1,0 +1,89 @@
+.container {
+        display: flex;
+        flex-direction: column;
+}
+
+.head {
+        display: flex;
+        justify-content: space-between;
+        background-color: #3dbeff;
+        color: #fff;
+        font-size: 20px;
+        align-items: flex-end;
+}
+
+ul {
+        display: flex;
+        list-style-type: none;
+        gap: 40px;
+        margin-right: 50px;
+}
+
+.head a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 21px;
+        font-weight: bold;
+}
+
+.sunnytext {
+        padding-top: 10px;      
+}
+
+.flex-container {
+        display: flex;
+        background-color: darkgreen;
+        flex-wrap: wrap;
+        width: 100%;
+       
+}
+
+.phase-1 {
+        display: flex;
+        border: 1px solid beige;
+
+      
+}
+
+.phase-1 > div {
+        flex: 1;     
+}
+
+.egg { 
+        border: 1px solid yellow;
+        order: 2;  
+}
+.egg img {
+        width: 700px;
+}
+
+.transform {
+        text-align: justify;
+        border: 1px solid red;
+        font-size: 20px;
+        margin: 80px 150px 70px 150px;
+        
+}
+.phase-2 {
+        display: flex;
+        border: 1px solid blue;
+}
+
+.phase-2 > div {
+        flex: 1;
+        border: 1px solid orange;
+        
+} 
+
+.tea img {
+        width: 630px;
+        height: 500px;
+        border: 1px solid pink;
+        position: top;
+}
+
+.phase-3 {
+        display: flex;
+      
+       
+}
